@@ -18,7 +18,7 @@ templates=Jinja2Templates(directory='templates')
 
 html_path = "templates/error_display.html"
 
-### Mongo DB details
+# MongoDB connection details
 MONGO_DB_URL="mongodb://localhost:27017"
 DATABASE_NAME="testdb"
 COLLECTION_NAME='user_details'
