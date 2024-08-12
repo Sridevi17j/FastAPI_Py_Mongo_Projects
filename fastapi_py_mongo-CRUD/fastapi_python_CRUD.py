@@ -33,6 +33,10 @@ collection=database[COLLECTION_NAME]
 async def render_form(request:Request):
     return templates.TemplateResponse("registration.html",{"request":request})
 
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
+
 ### submit_form (with document id- editing already existing record)
 @app.post("/submit_form/{document_id}")
 async def submit_form(
