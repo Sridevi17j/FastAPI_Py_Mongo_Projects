@@ -7,7 +7,6 @@ from fastapi import HTTPException
 from fastapi.exceptions import RequestValidationError
 
 
-
 import uvicorn
 from bson import ObjectId
 
