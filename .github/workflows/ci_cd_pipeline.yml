@@ -24,6 +24,7 @@ jobs:
 
       - name: Start FastAPI application
         run: |
+          cd fastapi_py_mongo-CRUD
           python -m uvicorn main:app --host 0.0.0.0 --port 8000 &
           sleep 5  # Give the server some time to start
 
