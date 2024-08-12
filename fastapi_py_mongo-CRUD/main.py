@@ -6,7 +6,6 @@ from fastapi.templating import Jinja2Templates
 from fastapi import HTTPException
 from fastapi.exceptions import RequestValidationError
 
-## Adding a comment to check the coderabbitai pr reviewer
 
 import uvicorn
 from bson import ObjectId
