@@ -6,7 +6,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi import HTTPException
 from fastapi.exceptions import RequestValidationError
 
-{{{{{
+
 
 import uvicorn
 from bson import ObjectId
@@ -18,7 +18,7 @@ templates=Jinja2Templates(directory='templates')
 
 html_path = "templates/error_display.html"
 
-# MongoDB connection details
+### Mongo DB details
 MONGO_DB_URL="mongodb://localhost:27017"
 DATABASE_NAME="testdb"
 COLLECTION_NAME='user_details'
