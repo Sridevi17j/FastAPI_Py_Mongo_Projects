@@ -153,7 +153,7 @@ async def edit(request:Request,document_id:str):
     except Exception as e:
         return templates.TemplateResponse('error_display.html',{'status_code':500,'detail':'Internal Server Error','request':request})
 
-uvicorn.run(app, host="127.0.0.1", port=8000)
+#uvicorn.run(app, host="127.0.0.1", port=8000)
 
 
 
